@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Society</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -11,6 +12,9 @@
         <nav>
             <a href="#about">About</a>
             <a href="#mission">Our Mission</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#join">Join Us</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -18,21 +22,69 @@
     <main>
         <section id="about">
             <h2>About Us</h2>
-            <p>We are building a platform for positive social change.</p>
+            <p>We are building a platform for positive social change, bringing together individuals and communities to create lasting impact.</p>
         </section>
         
         <section id="mission">
             <h2>Our Mission</h2>
-            <p>To create meaningful connections and foster community growth through technology.</p>
+            <p>To create meaningful connections and foster community growth through technology, enabling everyone to contribute to a better future.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Current Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Community Gardens</h3>
+                    <p>Creating sustainable food sources in urban areas.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Digital Literacy</h3>
+                    <p>Teaching essential tech skills to underserved communities.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Youth Mentorship</h3>
+                    <p>Connecting experienced professionals with aspiring youth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Community Voices</h2>
+            <div class="testimonial-grid">
+                <blockquote>
+                    <p>"New Society helped me find my purpose in community service."</p>
+                    <cite>- Sarah J., Community Leader</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"The digital literacy program changed my career trajectory."</p>
+                    <cite>- Michael R., Program Graduate</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="join" class="cta-section">
+            <h2>Join Our Community</h2>
+            <p>Be part of the change you want to see in the world.</p>
+            <button class="cta-button">Sign Up Now</button>
         </section>
         
         <section id="contact">
             <h2>Contact Us</h2>
             <p>Reach out to join our mission or learn more about our initiatives.</p>
+            <form class="contact-form">
+                <input type="email" placeholder="Your email" required>
+                <textarea placeholder="Your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
     
     <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">Instagram</a>
+        </div>
         <p>&copy; 2025 New Society. All rights reserved.</p>
     </footer>
 </body>
